@@ -1,0 +1,48 @@
+.menu {
+    background: orangered;
+    list-style: none;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0;
+  }
+  
+  .menu li {
+    position: relative;
+  }
+  
+  .menu a {
+    padding: 10px 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dropdown, .sub-dropdown {
+    display: none;
+    position: absolute;
+    background: orangered;
+    list-style: none;
+    padding: 0;
+    width: 150px;
+
+  }
+  .tutorialss:hover {
+    background-color: black;
+
+  }
+  
+  .dropdown {
+    top: 100%;
+    left: 0;
+  }
+  
+  .sub-dropdown {
+    top: 0;
+    left: 100%;
+  }
+  
+  .menu li:hover > .dropdown,
+  .dropdown li:hover > .sub-dropdown {
+    display: block;
+  }
+  
