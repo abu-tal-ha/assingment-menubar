@@ -1,3 +1,6 @@
+body {
+  background-color: rgba(0, 0, 0, 0.781);
+}
 .menu {
     background: orangered;
     list-style: none;
